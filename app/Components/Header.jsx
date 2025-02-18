@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { font } from './font/font';
 import { useState } from 'react';
 
 export default function Header() {
@@ -32,7 +33,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-background shadow-md sticky top-0 z-50">
+    <header className={`${font.className} bg-background shadow-md px-20 sticky top-0 z-50`}>
       <nav className="max-w-[1400px] mx-auto px-2">
         <div className="flex items-center">
           {/* Logo - Left */}
@@ -51,7 +52,7 @@ export default function Header() {
                 Home
               </Link>
               <Link href="/about" className="nav-link hover:text-cyan-300">
-                About Us
+                About
               </Link>
               <div className="relative group">
                 <button 
@@ -89,7 +90,7 @@ export default function Header() {
                 Portfolio
               </Link>
               <Link href="/contact" className="nav-link hover:text-cyan-300">
-                Contact Us
+                Contact
               </Link>
             </div>
           </div>

@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { font } from './font/font';
 
 export default function Hero() {
   const [formData, setFormData] = useState({
@@ -59,7 +60,7 @@ export default function Hero() {
       }
 
   return (
-    <section className="relative min-h-screen pt-20 bg-background">
+    <section className={` ${font.className} relative min-h-screen px-20  bg-background`}>
 
       {/* Content */}
       <div className="container mx-auto px-4 py-20 relative z-20">
@@ -67,7 +68,7 @@ export default function Hero() {
           {/* Text Content */}
           <div className="text-white max-w-xl">
             
-            <h1 className="font-oswald text-4xl max-w-xl md:text-4xl lg:text-6xl font-bold mb-6 tracking-wide">
+            <h1 className="font-oswald text-4xl max-w-xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
               BRAND.DESIGN.<br/>PRODUCT. IN-HOUSE
                 DEVELOPMENT
                 & MORE
@@ -77,7 +78,7 @@ export default function Hero() {
             </button></a>
           </div>
           <div className='flex items-center justify-center'>
-            <img src='homeBanner-img.png' className='w-auto h-96 p-8'/>
+            <img src='homeBanner-img.png' className='w-full h-full '/>
           </div>
         </div>
     </div>
