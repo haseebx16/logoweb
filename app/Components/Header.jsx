@@ -105,7 +105,7 @@ export default function Header() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden text-black ml-auto">
+          <div className="md:hidden text-cyan-300 ml-auto">
             <button 
               className="p-2"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -122,18 +122,18 @@ export default function Header() {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden absolute top-full left-0 right-0 bg-white shadow-md`}>
+        <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden absolute top-full left-0 right-0 bg-background shadow-md`}>
           <div className="flex flex-col p-4 space-y-4">
-            <Link href="/" className="nav-link">
+            <Link href="/" className="nav-link text-cyan-300">
               Home
             </Link>
-            <Link href="/about" className="nav-link">
+            <Link href="/about" className="nav-link text-cyan-300">
               About Us
             </Link>
             <div>
               <button 
                 onClick={() => setIsServicesOpen(!isServicesOpen)}
-                className="nav-link w-full text-left flex items-center justify-between"
+                className="nav-link w-full text-left text-cyan-300 flex items-center justify-between"
               >
                 Services
                 <svg className={`w-4 h-4 transform ${isServicesOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -146,7 +146,7 @@ export default function Header() {
                     <Link 
                       key={index}
                       href={`/services/${service.toLowerCase().replace(/\s+/g, '')}`}
-                      className="block py-1 text-sm text-gray-600 hover:text-orange-500"
+                      className="block py-1 text-sm text-cyan-300 hover:text-orange-500"
                     >
                       {service}
                     </Link>
@@ -154,17 +154,17 @@ export default function Header() {
                 </div>
               )}
             </div>
-            <Link href="/testimonials" className="nav-link">
+            <Link href="/testimonials" className="nav-link text-cyan-300">
               Testimonials
             </Link>
-            <Link href="/portfolio" className="nav-link">
+            <Link href="/portfolio" className="nav-link text-cyan-300">
               Portfolio
             </Link>
-            <Link href="/contact" className="nav-link">
+            <Link href="/contact" className="nav-link text-cyan-300">
               Contact Us
             </Link>
-            <a href='mailto:support@amazonlegacypress.com' className="font-oswald text-orange-500 font-bold">
-              support@amazonlegacypress.com
+            <a href='mailto:support@amazonlegacypress.com' className="font-oswald text-cyan-500 font-bold">
+              support@logowebusa.com
             </a>
           </div>
         </div>
