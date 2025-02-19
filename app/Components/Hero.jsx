@@ -60,7 +60,7 @@ export default function Hero() {
       }
 
   return (
-    <section className={` ${font.className} relative min-h-screen px-20  bg-background`}>
+    <section className={` ${font.className} relative h-screen md:h-[44rem] px-20  bg-background`}>
 
       {/* Content */}
       <div className="container mx-auto px-4 py-20 relative z-20">
