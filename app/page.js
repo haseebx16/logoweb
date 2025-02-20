@@ -6,6 +6,7 @@ import Core from "./Components/Core";
 import Portfolio from "./Components/Portfolio";
 import Service from "./Components/Service";
 import Testimonials from "./Components/Testimonials";
+import Talk from "./Components/Talk";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Portfolio/>
       <Service/>
       <Testimonials/>
+      <Talk/>
    </div>
   );
 }
