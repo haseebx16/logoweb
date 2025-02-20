@@ -8,6 +8,7 @@ import Service from "./Components/Service";
 import Testimonials from "./Components/Testimonials";
 import Talk from "./Components/Talk";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Testimonials/>
       <Talk/>
       <Contact/>
+      <Footer/>
    </div>
   );
 }
