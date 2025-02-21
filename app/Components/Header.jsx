@@ -164,7 +164,7 @@ export default function Header() {
             <Link href="/contact" className="nav-link text-cyan-300">
               Contact Us
             </Link>
-            <a href='mailto:support@amazonlegacypress.com' className="font-oswald text-cyan-500 font-bold">
+            <a href='mailto:support@logowebusa.com' className="font-oswald text-cyan-500 font-bold">
               support@logowebusa.com
             </a>
           </div>
