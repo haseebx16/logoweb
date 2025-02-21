@@ -2,7 +2,9 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+        <h1>Video Animations</h1>
+    </div>
   )
 }
 
