@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
         </div>
             <div className={` ${font.className} flex text-white bg-zinc-950 pt-12 p-20 flex-col md:flex-row justify-center items-center md:justify-between`}>
-                <p>©2025 LogoWeb USA</p>
+                <p><span>©</span>&nbsp;2025 LogoWeb USA</p>
                 <div>
                     <p>Privacy Policy</p>
                 </div>
