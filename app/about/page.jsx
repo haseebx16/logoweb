@@ -3,6 +3,7 @@ import Header from '../Components/Header'
 import { font } from '../Components/font/font'
 import Philosophy from '../Components/Philosophy'
 import TakeCare from '../Components/TakeCare'
+import OurExpertise from '../Components/OurExpertise'
 
 const page = () => {
   return (
@@ -33,6 +34,7 @@ const page = () => {
             </section>
             <Philosophy/>
             <TakeCare/>
+            <OurExpertise/>
     </div>
   )
 }
