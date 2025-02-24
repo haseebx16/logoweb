@@ -4,7 +4,6 @@ import { font } from '@/app/Components/font/font';
 import React from 'react'
 import Header from '@/app/Components/Header';
 import Partners from '@/app/Components/Partners';
-import Web from '@/app/Components/Web';
 import Portfolio from '@/app/Components/Portfolio';
 import Talk from '@/app/Components/Talk';
 import Contact from '@/app/Components/Contact';
@@ -12,6 +11,7 @@ import Footer from '@/app/Components/Footer';
 import WebSpecial from '@/app/Components/WebSpecial';
 import LeadingFirmWeb from '@/app/Components/LeadingFirmWeb';
 import EApproach from './e-approach';
+import Ecom from './ecom';
 
 const page = () => {
   return (
@@ -39,7 +39,7 @@ Contact us for e-commerce web development solutions!</p>
         </section>
         <Partners/>
         <EApproach/>
-        <Web/>
+        <Ecom/>
         <Portfolio/>
         <WebSpecial/>
         <LeadingFirmWeb/>
