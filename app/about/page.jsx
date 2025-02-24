@@ -7,6 +7,7 @@ import OurExpertise from '../Components/OurExpertise'
 import Talk from '../Components/Talk'
 import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
+import DataUse from '../Components/DataUse'
 
 const page = () => {
   return (
@@ -38,6 +39,7 @@ const page = () => {
             <Philosophy/>
             <TakeCare/>
             <OurExpertise/>
+            <DataUse/>
             <Talk/>
             <Contact/>
             <Footer/>
