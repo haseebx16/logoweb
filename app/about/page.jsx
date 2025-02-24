@@ -8,6 +8,7 @@ import Talk from '../Components/Talk'
 import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
 import DataUse from '../Components/DataUse'
+import Reliable from '../Components/Reliable'
 
 const page = () => {
   return (
@@ -40,6 +41,7 @@ const page = () => {
             <TakeCare/>
             <OurExpertise/>
             <DataUse/>
+            <Reliable/>
             <Talk/>
             <Contact/>
             <Footer/>
