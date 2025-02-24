@@ -1,9 +1,13 @@
+"use client";
+
+import { font } from '@/app/Components/font/font';
 import React from 'react'
+import Header from '@/app/Components/Header';
 
 const page = () => {
   return (
-    <div>
-        <h1>Website Development</h1>
+    <div className={`${font.className} `}>
+        <Header/>
     </div>
   )
 }
