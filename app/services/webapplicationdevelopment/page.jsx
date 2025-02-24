@@ -13,6 +13,7 @@ import Contact from '@/app/Components/Contact';
 import Footer from '@/app/Components/Footer';
 import WebSpecial from '@/app/Components/WebSpecial';
 import LeadingFirmWeb from '@/app/Components/LeadingFirmWeb';
+import WebApp from './WebApp';
 
 const page = () => {
   return (
@@ -39,7 +40,7 @@ Now is the moment to begin developing software that takes advantage of flexible 
         </section>
         <Partners/>
         <AppApproach/>
-        <Web/>
+        <WebApp/>
         <Portfolio/>
         <WebSpecial/>
         <LeadingFirmWeb/>
