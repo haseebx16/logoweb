@@ -10,18 +10,13 @@ export default function Header() {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   const services = [
-    'Ghost Writing Services',
-    'Book Writing Services',
-    'Book Marketing Services',
-    'Book Editing And Proofreading Services',
-    'Book Cover Design',
-    'Book Formatting',
-    'Book Publication',
-    'Book Illustration',
-    'Book Printing',
-    'Author Website',
-    'Audio Book',
-    'Video Book'
+    'Website Development',
+    'Ecommerce Solutions',
+    'Logo Design',
+    'Web Application Development',
+    'Mobile App Development',
+    'Video Animations',
+    'Branding',
   ];
 
   const openLiveChat = () => {
