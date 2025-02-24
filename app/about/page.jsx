@@ -9,6 +9,7 @@ import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
 import DataUse from '../Components/DataUse'
 import Reliable from '../Components/Reliable'
+import GooglePartner from '../Components/GooglePartner'
 
 const page = () => {
   return (
@@ -42,6 +43,7 @@ const page = () => {
             <OurExpertise/>
             <DataUse/>
             <Reliable/>
+            <GooglePartner/>
             <Talk/>
             <Contact/>
             <Footer/>
