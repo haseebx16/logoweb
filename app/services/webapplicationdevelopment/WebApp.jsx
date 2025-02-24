@@ -54,7 +54,7 @@ const WebApp = () => {
   return (
     <div className={`${font.className} bg-background text-white py-20 px-6 md:px-20`}>
       <h1 className='text-2xl md:text-4xl text-center font-extrabold mb-10'>
-        Our Custom Web Development Services Process
+        Our Custom Web App Development Services Process
       </h1>
 
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
