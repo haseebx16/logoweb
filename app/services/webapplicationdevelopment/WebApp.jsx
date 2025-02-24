@@ -4,8 +4,8 @@ import { FaLaptopCode, FaCode, FaRocket, FaChartLine, FaSearch, FaFileAlt } from
 
 const services = [
   {
-    title: 'Wireframes & Design Concepts',
-    description: 'Before investing significant time into creating comprehensive mockups of the user interface replete with colors, fonts, and other design aspects, our designers check to ensure they are moving in the correct path.',
+    title: 'SaaS Apps Development Services',
+    description: 'Our SaaS development service includes the planning, design, and coding of cutting-edge products for usage through a subscription model and cloud hosting.',
     icon: <FaLaptopCode className="text-cyan-400 text-3xl" />
   },
   {
