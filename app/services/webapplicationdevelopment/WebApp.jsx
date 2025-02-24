@@ -9,8 +9,8 @@ const services = [
     icon: <FaLaptopCode className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Web Development & Site Testing',
-    description: 'Online testing is intended to evaluate every part of the operation of a web application. This includes checking for faults in usability, compatibility, security, and overall performance.',
+    title: 'Front-end Development Services',
+    description: 'As web development experts, our front-end developers are indispensable for creating web-based products like progressive web apps or implementing other ideas that rely on web technology.',
     icon: <FaCode className="text-cyan-400 text-3xl" />
   },
   {
