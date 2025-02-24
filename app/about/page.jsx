@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Components/Header'
 import { font } from '../Components/font/font'
+import Philosophy from '../Components/Philosophy'
 
 const page = () => {
   return (
@@ -29,6 +30,7 @@ const page = () => {
                 </div>
             </div>
             </section>
+            <Philosophy/>
     </div>
   )
 }
