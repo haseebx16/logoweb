@@ -14,40 +14,26 @@ const services = [
     icon: <FaCode className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Website Launch',
-    description: 'When the site testing is complete, it will be ready for launch. Your website will be live on the internet and be accessible to users from all over the world.',
+    title: 'Progressive Web Apps Development Services',
+    description: 'Our web developers develop Progress Web Apps (PWA) that are responsive and work smoothly on mobile devices.',
     icon: <FaRocket className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Monitoring & Optimizing',
-    description: 'Website monitoring optimizes page loading, reduces fault time, and improves user experience. Our developers ensure that company websites are up and running smoothly.',
+    title: 'Backend Development Services',
+    description: 'Working with our developers will provide you with back-end services that help your company grow and evolve.',
     icon: <FaChartLine className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Information Architecture',
-    description: 'The information architecture of a website or application describes several characteristics, including structure, navigation, functionality, and interactions.',
+    title: 'E-commerce Web Apps Development Services',
+    description: 'Our developers offer e-commerce web app development services that are aesthetically pleasing for customers and function smoothly',
     icon: <FaSearch className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Website Content Development',
-    description: 'It includes material on your website that is pertinent to your business and meets your description. Our specialists will optimize your website so that it attracts a more significant number of visitors.',
+    title: 'Custom Web Apps Development for Enterprises',
+    description: 'Website Bravo professionals offer custom web app development for enterprises that are tailor-made to clients’ requirements.',
     icon: <FaFileAlt className="text-cyan-400 text-3xl" />
   },
-  {
-    title: 'Website Launch',
-    description: 'When the site testing is complete, it will be ready for launch. Your website will be live on the internet and be accessible to users from all over the world.',
-    icon: <FaFileAlt className="text-cyan-400 text-3xl" />
-  },
-  {
-    title: 'Monitoring & Optimizing',
-    description: 'Website monitoring optimizes page loading, reduces fault time, and improves user experience. Our developers ensure that company websites are up and running smoothly.',
-    icon: <FaFileAlt className="text-cyan-400 text-3xl" />
-  },
-  {
-    title: 'Discovery',
-    description: "Website Bravo knows how to create customized solutions and apps to meet your company's requirements.",
-    icon: <FaFileAlt className="text-cyan-400 text-3xl" />
-  },
+  
 ];
 
 const WebApp = () => {
@@ -61,7 +47,7 @@ const WebApp = () => {
         
         <div className="space-y-8">
           <img src='/multifaceted.png' className='w-full md:w-96 mx-auto' alt="Development Process" />
-          {services.slice(0, 3).map((service, index) => (
+          {services.slice(0, 2).map((service, index) => (
             <div key={index} className="flex space-x-4 items-start">
               <div className="p-3 bg-gray-800 rounded-lg">{service.icon}</div>
               <div>
@@ -73,7 +59,7 @@ const WebApp = () => {
         </div>
 
         <div className="space-y-8">
-          {services.slice(3, 9).map((service, index) => (
+          {services.slice(2, 6).map((service, index) => (
             <div key={index} className="flex space-x-4 items-start">
               <div className="p-3 bg-gray-800 rounded-lg">{service.icon}</div>
               <div>
