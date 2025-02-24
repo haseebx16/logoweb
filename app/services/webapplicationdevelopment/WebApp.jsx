@@ -1,5 +1,5 @@
 import React from 'react';
-import { font } from './font/font';
+import { font } from '@/app/Components/font/font';
 import { FaLaptopCode, FaCode, FaRocket, FaChartLine, FaSearch, FaFileAlt } from 'react-icons/fa';
 
 const services = [
