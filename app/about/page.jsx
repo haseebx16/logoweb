@@ -15,7 +15,7 @@ const page = () => {
   return (
     <div>
         <Header/>
-         <section className={` ${font.className} relative overflow-hidden h-screen md:h-[44rem] px-20 flex flex-col justify-center items-center bg-background`}>
+         <section className={` ${font.className} relative overflow-hidden h-screen md:h-[55rem] px-20 flex flex-col justify-center items-center bg-background`}>
                 <div className="absolute inset-0 z-0">
                     <div className="absolute inset-0 bg-black/60 z-10"></div>
                     <div 
