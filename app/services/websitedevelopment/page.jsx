@@ -10,6 +10,7 @@ import Portfolio from '@/app/Components/Portfolio';
 import Talk from '@/app/Components/Talk';
 import Contact from '@/app/Components/Contact';
 import Footer from '@/app/Components/Footer';
+import WebSpecial from '@/app/Components/WebSpecial';
 
 const page = () => {
   return (
@@ -38,6 +39,7 @@ const page = () => {
         <Approach/>
         <Web/>
         <Portfolio/>
+        <WebSpecial/>
         <Talk/>
         <Contact/>
         <Footer/>
