@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
         <Header/>
-         <section className={` ${font.className} relative h-screen md:h-[44rem] px-20  bg-background`}>
+         <section className={` ${font.className} relative h-screen md:h-[44rem] px-20 flex flex-col justify-center items-center bg-background`}>
                 <div className="absolute inset-0 z-0">
                     <div className="absolute inset-0 bg-black/60 z-10"></div>
                     <div 
@@ -16,9 +16,9 @@ const page = () => {
                         }}
                     ></div>
             </div>
-              <div className="container absolute mx-auto px-4 py-20 z-20">
-                <div className="flex flex-col md:flex-row items-center justify-center gap-12">
-                  <div className="text-white">
+              <div className="container absolute px-4 py-20 z-20">
+                <div className="flex flex-col md:flex-row items-center justify-center">
+                  <div className="text-white flex flex-col items-center justify-center text-center">
                     
                     <h1 className="font-oswald text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
                     Helping Ambitious Brands Punch Above Their Weight
