@@ -11,6 +11,7 @@ import Talk from '@/app/Components/Talk';
 import Contact from '@/app/Components/Contact';
 import Footer from '@/app/Components/Footer';
 import WebSpecial from '@/app/Components/WebSpecial';
+import LeadingFirmWeb from '@/app/Components/LeadingFirmWeb';
 
 const page = () => {
   return (
@@ -40,6 +41,7 @@ const page = () => {
         <Web/>
         <Portfolio/>
         <WebSpecial/>
+        <LeadingFirmWeb/>
         <Talk/>
         <Contact/>
         <Footer/>
