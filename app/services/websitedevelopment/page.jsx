@@ -4,6 +4,7 @@ import { font } from '@/app/Components/font/font';
 import React from 'react'
 import Header from '@/app/Components/Header';
 import Partners from '@/app/Components/Partners';
+import Approach from '@/app/Components/Approach';
 
 const page = () => {
   return (
@@ -30,6 +31,7 @@ const page = () => {
     </div>
     </section>
     <Partners/>
+    <Approach/>
     </div>
   )
 }
