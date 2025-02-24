@@ -1,64 +1,8 @@
 'use client';
-import { useState } from 'react';
-import emailjs from 'emailjs-com';
+
 import { font } from './font/font';
 
 export default function Hero() {
-  const [formData, setFormData] = useState({
-    fullName: '',
-    email: '',
-    phone: '',
-    message: ''
-  });
-
-  const [error, setError] = useState('');
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const { fullName, email, phone, message } = formData;
-
-    // Validate required fields
-    if (!fullName || !email || !phone || !message) {
-      setError('All fields are required.');
-      return;
-    }
-
-    // Reset error state
-    setError('');
-
-    // Send email using EmailJS
-    emailjs
-      .send(
-        'service_r0ex0cl', // Replace with your service ID
-        'template_4vtfjk5', // Replace with your template ID
-        {
-          to_email: 'support@amazonlegacypress.com',
-          from_name: fullName,
-          from_email: email,
-          phone,
-          message,
-        },
-        'TihDoLxcsdR_sDnwT' // Replace with your EmailJS user ID
-      )
-      .then(() => {
-        alert('Your message has been sent successfully!');
-        setFormData({ fullName: '', email: '', phone: '', message: '' }); // Reset form fields
-      })
-      .catch((err) => {
-        setError('Failed to send your message. Please try again later.');
-        console.error('EmailJS Error:', err);
-      });
-      }
-
   return (
     <section className={` ${font.className} relative h-screen md:h-[44rem] px-20  bg-background`}>
 
