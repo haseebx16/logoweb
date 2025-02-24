@@ -5,6 +5,7 @@ import React from 'react'
 import Header from '@/app/Components/Header';
 import Partners from '@/app/Components/Partners';
 import Approach from '@/app/Components/Approach';
+import AppApproach from './AppApproach';
 import Web from '@/app/Components/Web';
 import Portfolio from '@/app/Components/Portfolio';
 import Talk from '@/app/Components/Talk';
@@ -37,7 +38,7 @@ Now is the moment to begin developing software that takes advantage of flexible 
           </div>
         </section>
         <Partners/>
-        <Approach/>
+        <AppApproach/>
         <Web/>
         <Portfolio/>
         <WebSpecial/>
