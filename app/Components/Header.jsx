@@ -28,9 +28,10 @@ export default function Header() {
   };
 
   return (
-    <header className={`${font.className} bg-background shadow-md px-20 sticky top-0 z-50`}>
+    <header className={`${font.className} bg-transparent shadow-md px-12 absolute top-0 z-50`}>
       <nav className="max-w-[1400px] mx-auto px-2">
-        <div className="flex items-center">
+        <div className="flex items-center justify-between">
+          
           {/* Logo - Left */}
           <div className="w-1/4 p-6">
             <Link href="/" className="font-oswald text-2xl font-bold">
@@ -62,7 +63,7 @@ export default function Header() {
                 </button>
                 {isServicesOpen && (
                   <div 
-                    className="absolute top-full left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-lg  w-64 z-50"
+                    className="absolute top-full left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-lg w-64 z-50"
                     onMouseEnter={() => setIsServicesOpen(true)}
                     onMouseLeave={() => setIsServicesOpen(false)}
                   >
@@ -96,14 +97,14 @@ export default function Header() {
             </div>
           </div>
 
-          {/* Phone Number - Right */}
-          <div className="hidden md:flex space-x-2 w-1/4 justify-end">
+          {/* Phone Number & Live Chat - Right */}
+          <div className="hidden md:flex flex-col space-y-2 w-1/4 justify-end items-end ml-auto">
+            <button onClick={openLiveChat} className="font-oswald hover:bg-white hover:text-cyan-500 text-white bg-cyan-500 p-2 px-10 rounded-md hover:bg-customYellow duration-300 border-orange-500 whitespace-nowrap">
+                Live Chat
+            </button>
             <a href='tel:(512)387-2951' className="font-oswald text-cyan-500 rounded-md p-2 border-2 border-cyan-500 font-bold whitespace-nowrap">
             + (512) 387-2951
             </a>
-            <button onClick={openLiveChat} className="font-oswald hover:bg-white hover:text-cyan-500 text-white bg-cyan-500 p-2 px-4 rounded-md hover:bg-customYellow duration-300 border-orange-500 whitespace-nowrap">
-                Live Chat
-            </button>
           </div>
 
           {/* Mobile Menu Button */}
