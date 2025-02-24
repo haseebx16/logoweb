@@ -6,6 +6,10 @@ import Header from '@/app/Components/Header';
 import Partners from '@/app/Components/Partners';
 import Approach from '@/app/Components/Approach';
 import Web from '@/app/Components/Web';
+import Portfolio from '@/app/Components/Portfolio';
+import Talk from '@/app/Components/Talk';
+import Contact from '@/app/Components/Contact';
+import Footer from '@/app/Components/Footer';
 
 const page = () => {
   return (
@@ -33,6 +37,10 @@ const page = () => {
         <Partners/>
         <Approach/>
         <Web/>
+        <Portfolio/>
+        <Talk/>
+        <Contact/>
+        <Footer/>
     </div>
   )
 }
