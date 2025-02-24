@@ -1,5 +1,5 @@
 import React from 'react'
-import { font } from './font/font'
+import { font } from '@/app/Components/font/font'
 
 const EcomSpecial = () => {
   return (
