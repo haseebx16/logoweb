@@ -8,10 +8,10 @@ import Portfolio from '@/app/Components/Portfolio';
 import Talk from '@/app/Components/Talk';
 import Contact from '@/app/Components/Contact';
 import Footer from '@/app/Components/Footer';
-import WebSpecial from '@/app/Components/WebSpecial';
 import LeadingFirmWeb from '@/app/Components/LeadingFirmWeb';
 import EApproach from './e-approach';
 import Ecom from './ecom';
+import EcomSpecial from './EcomSpecial';
 
 const page = () => {
   return (
@@ -41,7 +41,7 @@ Contact us for e-commerce web development solutions!</p>
         <EApproach/>
         <Ecom/>
         <Portfolio/>
-        <WebSpecial/>
+        <EcomSpecial/>
         <LeadingFirmWeb/>
         <Talk/>
         <Contact/>
