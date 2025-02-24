@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaHands } from "react-icons/fa6";
 import { font } from './font/font'
 
 const LeadingFirmWeb = () => {
