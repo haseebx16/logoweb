@@ -78,14 +78,20 @@ export default function Header() {
                   </div>
                 )}
               </div>
-              <Link href="/testimonials" className="nav-link hover:text-cyan-300">
-                Testimonials
+              <Link href="/technologies" className="nav-link hover:text-cyan-300">
+                Technologies
               </Link>
               <Link href="/portfolio" className="nav-link hover:text-cyan-300">
                 Portfolio
               </Link>
-              <Link href="/contact" className="nav-link hover:text-cyan-300">
-                Contact
+              <Link href="/packages" className="nav-link hover:text-cyan-300">
+                Packages
+              </Link>
+              <Link href="/industries" className="nav-link hover:text-cyan-300">
+                Industries
+              </Link>
+              <Link href="/solutions" className="nav-link hover:text-cyan-300">
+                Solutions
               </Link>
             </div>
           </div>
