@@ -4,6 +4,9 @@ import { font } from '../Components/font/font'
 import Philosophy from '../Components/Philosophy'
 import TakeCare from '../Components/TakeCare'
 import OurExpertise from '../Components/OurExpertise'
+import Talk from '../Components/Talk'
+import Contact from '../Components/Contact'
+import Footer from '../Components/Footer'
 
 const page = () => {
   return (
@@ -35,6 +38,9 @@ const page = () => {
             <Philosophy/>
             <TakeCare/>
             <OurExpertise/>
+            <Talk/>
+            <Contact/>
+            <Footer/>
     </div>
   )
 }
