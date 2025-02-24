@@ -1,11 +1,11 @@
 import React from 'react'
-import { font } from './font/font'
+import { font } from '@/app/Components/font/font'
 
 const EApproach = () => {
   return (
     <div className={`${font.className} md:p-20 p-8 overflow-hidden space-y-8 md:space-y-0 md:space-x-8 text-white w-full flex justify-between items-center flex-col md:flex-row bg-zinc-900`}>
             <div>
-                <img src='/approach.png' className='h-80 w-auto'/>
+                <img src='/approach.png' className='h-96 w-full'/>
             </div>
             <div>
                 <h1 className='font-extrabold text-5xl'>

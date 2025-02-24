@@ -36,7 +36,7 @@ export default function Header() {
           <div className="w-1/4 p-6">
             <Link href="/" className="font-oswald text-2xl font-bold">
               <span className="flex items-center">
-                <img src='/header.png' className='md:w-[180px] md:h-[60px] w-auto h-auto' />
+                <img src='/logo.png' className='md:w-[130px] md:h-[80px] w-auto h-auto' />
               </span>
             </Link>
           </div>
