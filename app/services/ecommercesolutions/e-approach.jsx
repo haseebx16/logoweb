@@ -1,7 +1,7 @@
 import React from 'react'
 import { font } from './font/font'
 
-const Approach = () => {
+const EApproach = () => {
   return (
     <div className={`${font.className} md:p-20 p-8 overflow-hidden space-y-8 md:space-y-0 md:space-x-8 text-white w-full flex justify-between items-center flex-col md:flex-row bg-zinc-900`}>
             <div>
@@ -16,4 +16,4 @@ const Approach = () => {
   )
 }
 
-export default Approach
+export default EApproach
