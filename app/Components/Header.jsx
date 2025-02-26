@@ -91,9 +91,7 @@ export default function Header() {
               <Link href="/industries" className="nav-link hover:text-cyan-300">
                 Industries
               </Link>
-              <Link href="/solutions" className="nav-link hover:text-cyan-300">
-                Solutions
-              </Link>
+              
             </div>
           </div>
 
@@ -158,7 +156,7 @@ export default function Header() {
               )}
             </div>
             <Link href="/testimonials" className="nav-link text-cyan-300">
-              Testimonials
+              Technologies
             </Link>
             <Link href="/portfolio" className="nav-link text-cyan-300">
               Portfolio
