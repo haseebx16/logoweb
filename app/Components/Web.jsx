@@ -45,7 +45,7 @@ const services = [
   },
   {
     title: 'Discovery',
-    description: "Website Bravo knows how to create customized solutions and apps to meet your company's requirements.",
+    description: "LogoWeb USA knows how to create customized solutions and apps to meet your company's requirements.",
     icon: <FaFileAlt className="text-cyan-400 text-3xl" />
   },
 ];

@@ -12,7 +12,7 @@ const Service = () => {
             </div>
             <div className='p-12 flex hover:bg-white text-white hover:text-black duration-300 flex-col justify-center items-center border-2 border-zinc-600 rounded-sm'>
                 <h1 className='text-cyan-300 text-3xl'>Ecommerce</h1>
-                <p className='text-center pt-2'>According to our e-commerce website designers, the foundation of online retail sales is a reliable e-commerce application. Website Bravo Experts work diligently to provide your online business with reliable e-commerce solutions.</p>
+                <p className='text-center pt-2'>According to our e-commerce website designers, the foundation of online retail sales is a reliable e-commerce application. LogoWeb USA Experts work diligently to provide your online business with reliable e-commerce solutions.</p>
             </div>
             <div className='p-12 flex hover:bg-white text-white hover:text-black duration-300 flex-col justify-center items-center border-2 border-zinc-600 rounded-sm'>
                 <h1 className='text-cyan-300 text-center text-3xl'>Web Apps</h1>

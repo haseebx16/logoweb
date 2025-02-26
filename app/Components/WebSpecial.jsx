@@ -16,7 +16,7 @@ const WebSpecial = () => {
                 </div>
                 <div className='p-12 flex hover:bg-white text-white hover:text-black duration-300 flex-col justify-center items-center border-2 border-zinc-600 rounded-sm'>
                     <h1 className='text-cyan-300 text-center text-3xl'>SEO</h1>
-                    <p className='text-center pt-2'>Professionals at Website Bravo provide optimized and keyword-rich web apps for our clients.</p>
+                    <p className='text-center pt-2'>Professionals at LogoWeb USA provide optimized and keyword-rich web apps for our clients.</p>
                 </div>
                 <div className='p-12 flex hover:bg-white text-white hover:text-black duration-300 flex-col justify-center items-center border-2 border-zinc-600 rounded-sm'>
                     <h1 className='text-cyan-300 text-center text-3xl'>Security</h1>

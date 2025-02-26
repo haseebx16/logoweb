@@ -10,12 +10,12 @@ const Testimonials = () => {
 
     const testimonials = [
         {
-            text: " Our company has grown thanks to the Website Bravo Their expert solutions never fail to amaze us, and their expertise has accelerated our sales. They have successfull produced four separate websites for our businesses I would use them for any of my future projects and would highly suggest them!",
+            text: " Our company has grown thanks to the LogoWeb USA Their expert solutions never fail to amaze us, and their expertise has accelerated our sales. They have successfull produced four separate websites for our businesses I would use them for any of my future projects and would highly suggest them!",
             name: "Meghan Bowen",
             role: "CEO",
         },
         {
-            text: "The We wanted to express how satisfied we were with Website Bravo’s customerservice,expertise, and devotion. We got the services of a highly costly,well-known website provider to build our Website, but we receivedmore care and efficiency from this company—and at a very economical price. ",
+            text: "The We wanted to express how satisfied we were with LogoWeb USA’s customerservice,expertise, and devotion. We got the services of a highly costly,well-known website provider to build our Website, but we receivedmore care and efficiency from this company—and at a very economical price. ",
             name: "Jonathan Carter",
             role: "Business Consultant",
         },

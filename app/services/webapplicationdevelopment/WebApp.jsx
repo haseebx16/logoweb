@@ -30,7 +30,7 @@ const services = [
   },
   {
     title: 'Custom Web Apps Development for Enterprises',
-    description: 'Website Bravo professionals offer custom web app development for enterprises that are tailor-made to clients’ requirements.',
+    description: 'LogoWeb USA professionals offer custom web app development for enterprises that are tailor-made to clients’ requirements.',
     icon: <FaFileAlt className="text-cyan-400 text-3xl" />
   },
   
