@@ -39,7 +39,6 @@ const page = () => {
         <EApproach/>
         <WhyChoose/>
         <Portfolio/>
-        <EcomSpecial/>
         <LeadingFirmWeb/>
         <Talk/>
         <Contact/>
