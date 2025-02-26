@@ -37,9 +37,8 @@ const page = () => {
         </section>
         <Partners/>
         <EApproach/>
-        <Ecom/>
-        <Portfolio/>
         <WhyChoose/>
+        <Portfolio/>
         <EcomSpecial/>
         <LeadingFirmWeb/>
         <Talk/>
