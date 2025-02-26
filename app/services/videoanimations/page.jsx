@@ -24,9 +24,11 @@ const page = () => {
                 <div className="text-white max-w-4xl">
                   
                   <h1 className="font-oswald text-4xl max-w-xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
-                  Custom Logo Design
+                  Video Production Services
                   </h1>
-                  <p className='md:text-xl text-sm py-4 text-white'>Making a prominent first impression is a signal of effective communication. Leave a lasting impression by creating a creative, aesthetically pleasing logo design with LogoWeb USA professionals.</p>
+                  <p className='md:text-xl text-sm py-4 text-white'>Use motion graphics, 2D and 3D animations, videography, and video marketing to make your business stand out.
+
+Benefit from LogoWeb USA's innovative video creation services to create a visually appealing animation for your company's brand.</p>
                   
                   <a href='/about'><button className="btn-primary text-cyan-300 text-lg uppercase tracking-wider">
                     Discover Our Data-Driven Strategies

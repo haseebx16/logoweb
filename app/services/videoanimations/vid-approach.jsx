@@ -9,8 +9,8 @@ const EApproach = () => {
             </div>
             <div>
                 <h1 className='font-extrabold text-4xl'>
-                Custom Logo Design Company in New York</h1>
-                <p className='max-w-xl mt-4'>LogoWeb USA is the premier custom logo design company in New York. Our team of skilled designers specializes in crafting unique and notable logos that perfectly capture the essence of a brand. Whether you're a small start-up or a large corporation, LogoWeb USA has the experience and expertise to create a logo that stands out in a crowded market. They work closely with their clients to understand their needs and goals and use that knowledge to create a logo that is aesthetically pleasing and effectively communicates the brand's message. With LogoWeb USA, you can be sure that your logo will represent your business and leave a lasting impression on your target audience.</p>
+                Corporate Video Production Services</h1>
+                <p className='max-w-xl mt-4'>LogoWeb USA offers Corporate Video Production Services that specialize in creating professional and engaging video content for businesses of all sizes. Our team of experienced videographers and editors can work with you to develop a concept, script, and storyboard that effectively communicates your message and resonates with your target audience. We offer comprehensive services, including marketing videos, product demos, employee training videos, and more. Our state-of-the-art equipment and editing software allow us to produce high-quality videos in various formats, including 4K, HD, and 360-degree. Our team is also experienced in animation and motion graphics to add an extra layer of visual interest to the videos. So whether you need a video to promote a new product, train employees, or tell your company's story, we can help you achieve your goals and create videos that can help you to boost your brand and increase your ROI.</p>
             </div>
         </div>
   )
