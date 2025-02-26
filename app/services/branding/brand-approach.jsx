@@ -9,8 +9,8 @@ const EApproach = () => {
             </div>
             <div>
                 <h1 className='font-extrabold text-4xl'>
-                Corporate Video Production Services</h1>
-                <p className='max-w-xl mt-4'>LogoWeb USA offers Corporate Video Production Services that specialize in creating professional and engaging video content for businesses of all sizes. Our team of experienced videographers and editors can work with you to develop a concept, script, and storyboard that effectively communicates your message and resonates with your target audience. We offer comprehensive services, including marketing videos, product demos, employee training videos, and more. Our state-of-the-art equipment and editing software allow us to produce high-quality videos in various formats, including 4K, HD, and 360-degree. Our team is also experienced in animation and motion graphics to add an extra layer of visual interest to the videos. So whether you need a video to promote a new product, train employees, or tell your company's story, we can help you achieve your goals and create videos that can help you to boost your brand and increase your ROI.</p>
+                Brand Identity Development Agency</h1>
+                <p className='max-w-xl mt-4'>LogoWeb USA is a leading brand identity development agency dedicated to helping businesses establish a strong and consistent brand image. From logo design to color palettes and typography, we work closely with our clients to comprehend their unique values and goals and develop a brand identity that perfectly captures their essence. Our experienced designers and branding experts are equipped with the knowledge and tools to create a cohesive and impactful brand identity that will set you apart in your industry. Trust us to help you define and communicate your brand to the world.</p>
             </div>
         </div>
   )
