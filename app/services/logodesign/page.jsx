@@ -12,6 +12,7 @@ import LeadingFirmWeb from '@/app/Components/LeadingFirmWeb';
 import EApproach from './logo-approach';
 import Ecom from './logo';
 import EcomSpecial from './LogoSpecial';
+import WhyChoose from './WhyChoose';
 
 const page = () => {
   return (
@@ -38,6 +39,7 @@ const page = () => {
         <EApproach/>
         <Ecom/>
         <Portfolio/>
+        <WhyChoose/>
         <EcomSpecial/>
         <LeadingFirmWeb/>
         <Talk/>
