@@ -4,48 +4,43 @@ import { FaLaptopCode, FaCode, FaRocket, FaChartLine, FaSearch, FaFileAlt } from
 
 const services = [
   {
-    title: 'Wordmarks/logotypes.',
-    description: "We design wordmarks for your brands and companies and create different and appealing logotypes with our service.",
+    title: 'Event Video Services',
+    description: "We offer event video services for enterprises with Website Bravo and add to your event professional and, also memorable aspects.",
     icon: <FaLaptopCode className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Letterforms.',
-    description: 'Our highly imaginative and creative designers design appealing letterforms for your brands.',
+    title: 'Commercial/Advertising Video Services',
+    description: 'Our professionals can offer an excellent advertising video platform for your products and services.',
     icon: <FaCode className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Combination marks.',
-    description: "We offer a combination mark logo design that combines a logotype and a logomark to strengthen the brand's message; we blend text with an image or iconography.",
+    title: 'Promotional Documentary Video Services',
+    description: "With our promotional documentary video services, get your message across creatively and succinctly that caters to clients’ needs.",
     icon: <FaRocket className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Sale Slideshow',
-    description: "We create videos that show analytics of your brand’s or company’s sales growth.",
+    title: 'Corporate Video Services',
+    description: "Our video production team offers corporate video services with professionalism in mind",
     icon: <FaChartLine className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Letter marks/monogram logos.',
-    description: "We are here to assist you in designing a monogram from your brand and getting your company off the ground by developing a stunning custom-made logo.",
+    title: 'Real Estate Video Services',
+    description: "Get videos produced with our animators and video services and show off your property from angles that increase your estate’s value.",
     icon: <FaChartLine className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Logo symbols/brand marks/pictorial marks.',
-    description: "Our professional services as a logo designer will ensure your logo project is completed to a high standard.",
+    title: 'Educational Video Services',
+    description: "We produce educational video services that are engaging and informative.",
     icon: <FaChartLine className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Abstract logo marks.',
-    description: "Get tailor-made logos for your brand or company and make a distinction with appealing logo marks.",
+    title: 'Music Video Services',
+    description: "We offer music video services that are eye-catching and attention grasping.",
     icon: <FaChartLine className="text-cyan-400 text-3xl" />
   },
   {
-    title: 'Mascots.',
-    description: "Take advantage of our outlandish mascot logo-creating services to take your company's identity to the next level.",
-    icon: <FaChartLine className="text-cyan-400 text-3xl" />
-  },
-  {
-    title: 'Emblems.',
-    description: "Our team of emblem logo designers has created a wide variety of designs for emblem logos that are right on target.",
+    title: 'Social Media Video Services',
+    description: "Enhance your social media engagement ratio with our social media video services.",
     icon: <FaChartLine className="text-cyan-400 text-3xl" />
   },
 ];
@@ -54,14 +49,14 @@ const Ecom = () => {
   return (
     <div className={`${font.className} bg-background text-white py-20 px-6 md:px-20`}>
       <h1 className='text-2xl md:text-4xl text-center font-extrabold mb-10'>
-      Creating High-quality Custom Logo Designs for your brand
+      Popular Professional Video Production Services
       </h1>
 
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
         
         <div className="space-y-8">
           <img src='/multifaceted.png' className='w-full md:w-96 mx-auto' alt="Development Process" />
-          {services.slice(0, 3).map((service, index) => (
+          {services.slice(0, 2).map((service, index) => (
             <div key={index} className="flex space-x-4 items-start">
               <div className="p-3 bg-gray-800 rounded-lg">{service.icon}</div>
               <div>
@@ -73,7 +68,7 @@ const Ecom = () => {
         </div>
 
         <div className="space-y-8">
-          {services.slice(3, 9).map((service, index) => (
+          {services.slice(3, 8).map((service, index) => (
             <div key={index} className="flex space-x-4 items-start">
               <div className="p-3 bg-gray-800 rounded-lg">{service.icon}</div>
               <div>
