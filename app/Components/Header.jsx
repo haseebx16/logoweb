@@ -29,7 +29,7 @@ export default function Header() {
 
   return (
     <header className={`${font.className} bg-transparent shadow-md px-12 absolute top-0 z-50`}>
-      <nav className="max-w-[1400px] mx-auto px-2">
+      <nav className="w-full mx-auto px-2">
         <div className="flex items-center justify-between">
           
           {/* Logo - Left */}
