@@ -219,14 +219,14 @@ const Packages = () => {
 
   return (
     <section className={`${font.className} flex flex-col text-white justify-center items-center p-12 bg-zinc-950`}>
-      <h1 className="text-2xl text-center md:text-5xl font-bold">See Our Packages</h1>
+      <h1 className="text-2xl text-center md:text-5xl text-red-600 font-bold">See Our Packages</h1>
       <div className="flex flex-wrap justify-center gap-4 pt-12 text-lg">
         {Object.keys(packageDetails).map((category) => (
           <button
             key={category}
             onClick={() => setTab(category)}
             className={`px-4 py-2 rounded-md transition-all duration-300 ${
-              tab === category ? "bg-blue-600 text-white font-bold" : "bg-gray-700 hover:bg-gray-600"
+              tab === category ? "bg-red-600 text-white font-bold" : "bg-gray-700 hover:bg-gray-600"
             }`}
           >
             {category}
@@ -239,9 +239,9 @@ const Packages = () => {
             <h2 className="text-xl font-light">{pkg.title}</h2>
             <div className="flex flex-col justify-center items-center">
               <p className="font-bold mt-5 text-xs">Starting from</p>
-              <p className="text-3xl text-center  text-cyan-400 font-extrabold">{pkg.price}</p>
+              <p className="text-3xl text-center  text-red-600 font-extrabold">{pkg.price}</p>
               <p className="text-xs text-center mt-4 text-black">Suitable for potential super-startups and brand revamps for companies.</p>
-              <button className="text-white mt-6 text-center bg-cyan-400 px-6 py-4 rounded-md">Let's Start</button>
+              <button className="text-white mt-6 text-center bg-red-600 px-6 py-4 rounded-md">Let's Start</button>
               <p className="text-sm pt-5 text-black">{pkg.description}</p>
               <div className="mt-4 max-h-40 overflow-y-auto text-sm space-y-3 text-left text-black list-disc ">
                 {pkg.features.map((feature, i) => (

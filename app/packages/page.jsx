@@ -15,12 +15,12 @@ const page = () => {
                       <div className="flex flex-col md:flex-row items-center justify-center gap-12">
                         <div className="text-white text-center max-w-4xl">
                           
-                          <h1 className="font-oswald text-center text-4xl  md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
+                          <h1 className="font-oswald text-red-600 text-center text-4xl  md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
                           See Our Packages
                           </h1>
                           {/* <p className={`${lightFont.className} md:text-xl text-center font-light text-sm py-4 text-white`}>Our work is a testament to our expertise. It speaks aloud in respect of e-commerce, web and mobile application, SEO, Google ad words and email marketing, branding and social media marketing. It demonstrates the caliber of value achieved for businesses like yours.</p> */}
                           
-                          <a href='/about'><button className="btn-primary text-cyan-300 text-lg uppercase tracking-wider">
+                          <a href='/about'><button className="btn-primary text-red-600 text-lg uppercase tracking-wider">
                             Discover Our Data-Driven Strategies
                           </button></a>
                         </div>
