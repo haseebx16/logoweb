@@ -31,7 +31,7 @@ const Footer = () => {
                     <h1 className='text-lg pt-2 font-bold md:text-left text-center'>Canada Office</h1>
                     <p className='md:text-left text-center'>144 4 Avenue South West Suite 1600,
                     Calgary, AB T2P 3N4, Canada</p>
-                    <p className='md:text-left text-center'>+(888) 598-4094</p>
+                    <p className='md:text-left text-center'>+ (512) 387-2951</p>
                 </div>
             </div>
         </div>
