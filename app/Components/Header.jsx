@@ -28,15 +28,15 @@ export default function Header() {
   };
 
   return (
-    <header className={`${font.className} bg-transparent shadow-md px-12 absolute top-0 z-50`}>
-      <nav className="w-full mx-auto px-2">
+    <header className={`${font.className} w-full fixed top-0 left-0 z-50 bg-background shadow-md px-2 `}>
+      <nav className="w-full mx-auto ">
         <div className="flex items-center justify-between">
           
           {/* Logo - Left */}
-          <div className="w-1/4 p-6">
+          <div className="md:w-auto ">
             <Link href="/" className="font-oswald text-2xl font-bold">
               <span className="flex items-center">
-                <img src='/log1.png' className='md:w-[140px] md:h-[130px] w-auto h-auto' />
+                <img src='/log2.png' className='md:w-[140px] md:h-[130px] w-auto h-36' />
               </span>
             </Link>
           </div>
@@ -91,19 +91,23 @@ export default function Header() {
               <Link href="/industries" className="nav-link hover:text-cyan-300">
                 Industries
               </Link>
-              <Link href="/solutions" className="nav-link hover:text-cyan-300">
-                Solutions
-              </Link>
+              
             </div>
           </div>
 
           {/* Phone Number & Live Chat - Right */}
-          <div className="hidden md:flex flex-col space-y-2 w-1/4 justify-end items-end ml-auto">
-            <button onClick={openLiveChat} className="font-oswald hover:bg-white hover:text-cyan-500 text-white bg-cyan-500 p-2 px-10 rounded-md hover:bg-customYellow duration-300 border-orange-500 whitespace-nowrap">
-                Live Chat
+          <div className="hidden md:flex items-center space-x-4 w-auto justify-end">
+            <button 
+              onClick={openLiveChat} 
+              className="font-oswald hover:bg-white hover:text-cyan-500 border-2 border-cyan-500 text-white bg-cyan-500 px-4 py-2 rounded-md hover:bg-customYellow duration-300 whitespace-nowrap"
+            >
+              Live Chat
             </button>
-            <a href='tel:(512)387-2951' className="font-oswald text-cyan-500 rounded-md p-2 border-2 border-cyan-500 font-bold whitespace-nowrap">
-            + (512) 387-2951
+            <a 
+              href='tel:(512)387-2951' 
+              className="font-oswald text-cyan-500 rounded-md px-4 py-2 border-2 border-cyan-500 font-bold whitespace-nowrap"
+            >
+              + (512) 387-2951
             </a>
           </div>
 
@@ -157,18 +161,19 @@ export default function Header() {
                 </div>
               )}
             </div>
-            <Link href="/testimonials" className="nav-link text-cyan-300">
-              Testimonials
-            </Link>
-            <Link href="/portfolio" className="nav-link text-cyan-300">
-              Portfolio
-            </Link>
-            <Link href="/contact" className="nav-link text-cyan-300">
-              Contact Us
-            </Link>
-            <a href='mailto:support@logowebusa.com' className="font-oswald text-cyan-500 font-bold">
-              support@logowebusa.com
-            </a>
+            <Link href="/technologies" className="nav-link text-cyan-300">
+                Technologies
+              </Link>
+              <Link href="/portfolio" className="nav-link text-cyan-300">
+                Portfolio
+              </Link>
+              <Link href="/packages" className="nav-link text-cyan-300">
+                Packages
+              </Link>
+              <Link href="/industries" className="nav-link text-cyan-300">
+                Industries
+              </Link>
+            
           </div>
         </div>
       </nav>
