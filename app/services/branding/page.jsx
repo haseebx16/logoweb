@@ -18,7 +18,7 @@ const page = () => {
   return (
     <div className={`${font.className} `}>
         <Header/>
-        <section className={` ${font.className} relative h-screen md:h-[50rem] px-20  bg-background`}>
+        <section className={` ${font.className} relative h-screen md:h-[40rem] px-20  bg-background`}>
             <div className="container mx-auto px-4 py-48 relative z-20">
               <div className="flex flex-col md:flex-row items-center justify-between gap-12">
                 <div className="text-white max-w-4xl">
@@ -28,9 +28,9 @@ const page = () => {
                   </h1>
                   <p className='md:text-xl text-sm py-4 text-white'>The design of your company's brand identity helps customers distinguish your business. We can assist companies located all around the globe with the creation of their corporate identities.</p>
                   
-                  <a href='/about'><button className="btn-primary text-cyan-300 text-lg uppercase tracking-wider">
-                    Discover Our Data-Driven Strategies
-                  </button></a>
+                  <button className="btn-primary text-white bg-cyan-400 px-8 rounded-md py-4 text-lg uppercase tracking-wider">
+                    Let's Talk
+                  </button>
                 </div>
               </div>
           </div>
