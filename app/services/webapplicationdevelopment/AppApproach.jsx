@@ -8,7 +8,7 @@ const AppApproach = () => {
                 <img src='/approach3.png' className='h-80 w-[100%]'/>
             </div>
             <div>
-                <h1 className='font-extrabold text-5xl'>Custom Web Application Development Company</h1>
+                <h1 className='font-extrabold text-red-600 text-5xl'>Custom Web Application Development Company</h1>
                 <p className='max-w-2xl mt-4'>LogoWeb USA is a custom web application development company specializing in delivering innovative and scalable solutions that meet the unique needs of businesses. Our team of experienced developers leverages the latest technologies to create custom web applications that are secure, reliable, and user-friendly. From concept to deployment, LogoWeb USA works closely with companies to understand their goals and deliver custom web applications that drive business success and provide a competitive edge. With a focus on quality and customer satisfaction, LogoWeb USA is the partner of choice for companies looking to enhance their online presence and streamline their operations.</p>
             </div>
         </div>
