@@ -235,15 +235,20 @@ const Packages = () => {
       </div>
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {packageDetails[tab]?.map((pkg, index) => (
-          <div key={index} className="p-6 bg-gray-800 rounded-lg shadow-lg">
-            <h2 className="text-xl font-bold">{pkg.title}</h2>
-            <p className="text-lg text-blue-400">{pkg.price}</p>
-            <p className="text-sm text-gray-400">{pkg.description}</p>
-            <ul className="mt-4 text-sm text-gray-300 list-disc pl-5">
-              {pkg.features.map((feature, i) => (
-                <li key={i}>{feature}</li>
-              ))}
-            </ul>
+          <div key={index} className="p-8 bg-gray-100 text-black max-h-[30rem] overflow-y-scroll rounded-2xl shadow-lg">
+            <h2 className="text-xl font-light">{pkg.title}</h2>
+            <div className="flex flex-col justify-center items-center">
+              <p className="font-bold mt-5 text-xs">Starting from</p>
+              <p className="text-3xl text-center  text-cyan-400 font-extrabold">{pkg.price}</p>
+              <p className="text-xs text-center mt-4 text-gray-500">Suitable for potential super-startups and brand revamps for companies.</p>
+              <button className="text-white mt-6 text-center bg-cyan-400 px-6 py-4 rounded-md">Let's Start</button>
+              <p className="text-sm pt-5 text-gray-400">{pkg.description}</p>
+              <div className="mt-4 text-sm space-y-3 text-left text-gray-400 list-disc ">
+                {pkg.features.map((feature, i) => (
+                  <p key={i}>{feature}</p>
+                ))}
+              </div>
+            </div>
           </div>
         ))}
       </div>

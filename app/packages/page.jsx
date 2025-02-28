@@ -23,7 +23,7 @@ const page = () => {
   return (
     <div>
         <Header/>
-        <section className={` ${font.className} relative h-screen md:h-[40rem] px-20  bg-background`}>
+        <section className={` ${font.className} relative h-screen md:h-[30rem] px-20  bg-background`}>
                     <div className="container mx-auto px-4 py-48 relative z-20">
                       <div className="flex flex-col md:flex-row items-center justify-center gap-12">
                         <div className="text-white text-center max-w-4xl">
