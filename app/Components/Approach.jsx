@@ -8,7 +8,7 @@ const Approach = () => {
                 <img src='/approach.png' className='h-80 w-auto'/>
             </div>
             <div>
-                <h1 className='font-extrabold text-5xl'>Our Approach</h1>
+                <h1 className='font-extrabold text-red-600 text-5xl'>Our Approach</h1>
                 <p className='max-w-2xl mt-4'>Our firm specializes in building unique websites and provides maintenance and update services. Web developers with experience will build new features, repair newly discovered flaws, and update APIs provided by third parties. Construct a web application that provides solutions to the issues faced by end users and is helpful for your business. The ability to check out in a quick and risk-free manner is essential to the success of any e-commerce application.</p>
             </div>
         </div>
