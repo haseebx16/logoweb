@@ -19,7 +19,7 @@ const page = () => {
   return (
     <div className={`${font.className} `}>
         <Header/>
-        <section className={` ${font.className} relative h-screen md:h-[50rem] px-20  bg-background`}>
+        <section className={` ${font.className} relative h-screen md:h-[42rem] px-20  bg-background`}>
             <div className="container mx-auto px-4 py-48 relative z-20">
               <div className="flex flex-col md:flex-row items-center justify-between gap-12">
                 <div className="text-white max-w-4xl">
@@ -29,11 +29,12 @@ const page = () => {
                   Development
                   </h1>
                   <p className='md:text-xl text-sm py-4 text-white'>Our web developers are experts in making reliable, secure, and flexible web apps that meet your specific needs.
-
-Now is the moment to begin developing software that takes advantage of flexible layouts. Contact us NOW!</p>
-                  <a href='/about'><button className="btn-primary text-cyan-300 text-lg uppercase tracking-wider">
-                    Discover Our Data-Driven Strategies
-                  </button></a>
+                  </p>
+                  <p className='md:text-xl text-sm py-4 text-white'>Now is the moment to begin developing software that takes advantage of flexible layouts. Contact us NOW!
+                  </p>
+                  <button className="btn-primary text-white bg-cyan-400 px-8 rounded-md py-4 text-lg uppercase tracking-wider">
+                    Let's Talk
+                  </button>
                 </div>
               </div>
           </div>
