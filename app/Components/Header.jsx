@@ -35,7 +35,7 @@ export default function Header() {
           <div className="md:w-auto ">
             <Link href="/" className="font-oswald text-2xl font-bold">
               <span className="flex items-center">
-                <img src='/log2.png' className='md:w-[140px] md:h-[130px] w-auto h-36' />
+                <img src='/log5.png' className='md:w-[140px] md:h-[130px] w-auto h-36' />
               </span>
             </Link>
           </div>
@@ -43,15 +43,15 @@ export default function Header() {
           {/* Desktop Navigation - Center */}
           <div className="hidden text-white md:flex justify-center w-2/4">
             <div className="flex space-x-6">
-              <Link href="/" className="nav-link hover:text-cyan-300">
+              <Link href="/" className="nav-link hover:text-red-600">
                 Home
               </Link>
-              <Link href="/about" className="nav-link hover:text-cyan-300">
+              <Link href="/about" className="nav-link hover:text-red-600">
                 About
               </Link>
               <div className="relative group">
                 <button 
-                  className="nav-link hover:text-cyan-300 flex items-center"
+                  className="nav-link hover:text-red-600 flex items-center"
                   onMouseEnter={() => setIsServicesOpen(true)}
                   onMouseLeave={() => setIsServicesOpen(false)}
                 >
@@ -70,7 +70,7 @@ export default function Header() {
                       <Link 
                         key={index} 
                         href={`/services/${service.toLowerCase().replace(/\s+/g, '')}`}
-                        className="block px-4 py-2 bg-blue-950 text-sm text-cyan-200 hover:bg-blue-300 hover:text-cyan-800"
+                        className="block px-4 py-2 bg-red-200 text-sm text-red-600 rounded-md hover:bg-blue-300 hover:text-cyan-800"
                       >
                         {service}
                       </Link>
@@ -78,16 +78,16 @@ export default function Header() {
                   </div>
                 )}
               </div>
-              <Link href="/technologies" className="nav-link hover:text-cyan-300">
+              <Link href="/technologies" className="nav-link hover:text-red-600">
                 Technologies
               </Link>
-              <Link href="/portfolio" className="nav-link hover:text-cyan-300">
+              <Link href="/portfolio" className="nav-link hover:text-red-600">
                 Portfolio
               </Link>
-              <Link href="/packages" className="nav-link hover:text-cyan-300">
+              <Link href="/packages" className="nav-link hover:text-red-600">
                 Packages
               </Link>
-              <Link href="/industries" className="nav-link hover:text-cyan-300">
+              <Link href="/industries" className="nav-link hover:text-red-600">
                 Industries
               </Link>
               
@@ -98,13 +98,13 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-4 w-auto justify-end">
             <button 
               onClick={openLiveChat} 
-              className="font-oswald hover:bg-white hover:text-cyan-500 border-2 border-cyan-500 text-white bg-cyan-500 px-4 py-2 rounded-md hover:bg-customYellow duration-300 whitespace-nowrap"
+              className="font-oswald hover:bg-white hover:text-red-500 border-2 border-red-500 text-white bg-red-600 px-4 py-2 rounded-md hover:bg-customYellow duration-300 whitespace-nowrap"
             >
               Live Chat
             </button>
             <a 
               href='tel:(512)387-2951' 
-              className="font-oswald text-cyan-500 rounded-md px-4 py-2 border-2 border-cyan-500 font-bold whitespace-nowrap"
+              className="font-oswald text-red-500 rounded-md px-4 py-2 border-2 border-red-500 font-bold whitespace-nowrap"
             >
               + (512) 387-2951
             </a>

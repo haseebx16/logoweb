@@ -58,11 +58,11 @@ const Testimonials = () => {
 
                             {/* Author Info */}
                             <div className="flex items-center mt-6">
-                                <div className="p-2 bg-cyan-500 text-white rounded-full">
+                                <div className="p-2 bg-red-600 text-white rounded-full">
                                     <i className="fas fa-quote-left text-xl"></i>
                                 </div>
                                 <div className={`${font.className} ml-4`}>
-                                    <p data-aos="fade-right" className="text-cyan-300 font-semibold">{testimonial.name}</p>
+                                    <p data-aos="fade-right" className="text-red-600 font-semibold">{testimonial.name}</p>
                                     <p className="text-white text-sm">{testimonial.role}</p>
                                 </div>
                             </div>

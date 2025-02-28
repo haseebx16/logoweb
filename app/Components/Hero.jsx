@@ -14,10 +14,10 @@ export default function Hero() {
             
             <h1 className="font-oswald text-4xl max-w-xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
               BRAND.DESIGN.<br/>PRODUCT. IN-HOUSE
-                DEVELOPMENT
+                <span  className='text-red-600'>&nbsp; DEVELOPMENT</span>
                 & MORE
             </h1>
-            <a href='/about'><button className="btn-primary text-cyan-300 text-lg uppercase tracking-wider">
+            <a href='/about'><button className="btn-primary text-red-600 text-lg uppercase tracking-wider">
                Discover Our Data-Driven Strategies
             </button></a>
           </div>

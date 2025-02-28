@@ -235,15 +235,15 @@ const Packages = () => {
       </div>
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {packageDetails[tab]?.map((pkg, index) => (
-          <div key={index} className="p-8 bg-gray-100 text-black max-h-[30rem] overflow-y-scroll rounded-2xl shadow-lg">
+          <div key={index} className="p-8 bg-gray-100 text-black max-h-[38rem] overflow-y-scroll rounded-2xl shadow-lg">
             <h2 className="text-xl font-light">{pkg.title}</h2>
             <div className="flex flex-col justify-center items-center">
               <p className="font-bold mt-5 text-xs">Starting from</p>
               <p className="text-3xl text-center  text-cyan-400 font-extrabold">{pkg.price}</p>
-              <p className="text-xs text-center mt-4 text-gray-500">Suitable for potential super-startups and brand revamps for companies.</p>
+              <p className="text-xs text-center mt-4 text-black">Suitable for potential super-startups and brand revamps for companies.</p>
               <button className="text-white mt-6 text-center bg-cyan-400 px-6 py-4 rounded-md">Let's Start</button>
-              <p className="text-sm pt-5 text-gray-400">{pkg.description}</p>
-              <div className="mt-4 text-sm space-y-3 text-left text-gray-400 list-disc ">
+              <p className="text-sm pt-5 text-black">{pkg.description}</p>
+              <div className="mt-4 max-h-40 overflow-y-auto text-sm space-y-3 text-left text-black list-disc ">
                 {pkg.features.map((feature, i) => (
                   <p key={i}>{feature}</p>
                 ))}

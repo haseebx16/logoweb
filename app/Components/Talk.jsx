@@ -21,7 +21,7 @@ const Talk = () => {
              Let’s Talk Right Away
             </h1>
             <p className='text-white'>Looking forward to enhancing the financial success of your business? Look no further and work with our digital design, development, and marketing experts.</p>
-            <a href='/about'><button className="bg-black px-12 py-4 rounded-md text-cyan-300 text-lg mt-4 uppercase tracking-wider">
+            <a href='/about'><button className="bg-black px-12 py-4 rounded-md text-red-600 text-lg mt-4 uppercase tracking-wider">
             + (512) 387-2951
             </button></a>
           </div>

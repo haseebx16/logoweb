@@ -4,19 +4,6 @@ import { font } from '../Components/font/font'
 import Talk from '../Components/Talk'
 import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
-import { lightFont } from '../Components/font/lightFont'
-import { FaPhp } from "react-icons/fa6";
-import { FaPython } from "react-icons/fa";
-import { FaJava } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { FaAngular } from "react-icons/fa";
-import { FaVuejs } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { FaApple } from "react-icons/fa";
-import { FaAndroid } from "react-icons/fa";
-import { TbBrandXamarin } from "react-icons/tb";
-import { FaLaravel } from "react-icons/fa";
-import { DiDjango } from "react-icons/di";
 import Packages from '../Components/Packages'
 
 const page = () => {

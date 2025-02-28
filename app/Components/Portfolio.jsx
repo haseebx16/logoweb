@@ -52,14 +52,14 @@ const Portfolio = () => {
 
   return (
     <section className={`${font.className} flex flex-col text-white justify-center items-center p-12 bg-zinc-900`}>
-      <h1 className="text-2xl text-center md:text-5xl font-bold">See Our Work</h1>
+      <h1 className="text-2xl text-center md:text-5xl text-red-600 font-bold">See Our Work</h1>
       <div className="flex flex-wrap justify-center gap-4 pt-12 text-lg">
         {Object.keys(tabImages).map((category) => (
           <button
             key={category}
             onClick={() => setTab(category)}
             className={`px-4 py-2 rounded-md transition-all duration-300 ${
-              tab === category ? "bg-blue-600 text-white font-bold" : "bg-gray-700 hover:bg-gray-600"
+              tab === category ? "bg-red-600 text-white font-bold" : "bg-gray-700 hover:bg-gray-600"
             }`}
           >
             {category}
