@@ -14,7 +14,7 @@ const TakeCare = () => {
                     <h1 className='text-zinc-400'>01</h1>
                 </div>
                 <div className='p-4'>
-                    <h1 className='text-3xl text-cyan-300 font-extrabold'>Outshine With Us</h1>
+                    <h1 className='text-3xl text-red-600 font-extrabold'>Outshine With Us</h1>
                     <p className='pt-4 text-xl font-extralight'>With Creative Performance</p>
                 </div>
             </div>
@@ -23,7 +23,7 @@ const TakeCare = () => {
                     <h1 className='text-zinc-400'>02</h1>
                 </div>
                 <div className='p-4'>
-                    <h1 className='text-3xl text-cyan-300 font-extrabold'>Gratify Partners</h1>
+                    <h1 className='text-3xl text-red-600 font-extrabold'>Gratify Partners</h1>
                     <p className='pt-4 text-xl font-extralight'>With Data-Driven Strats</p>
                 </div>
             </div>
@@ -32,7 +32,7 @@ const TakeCare = () => {
                     <h1 className='text-zinc-400'>03</h1>
                 </div>
                 <div className='p-4'>
-                    <h1 className='text-3xl text-cyan-300 font-extrabold'>Regular Upgrade</h1>
+                    <h1 className='text-3xl text-red-600 font-extrabold'>Regular Upgrade</h1>
                     <p className='pt-4 text-xl font-extralight'>With Newer SOP</p>
                 </div>
             </div>
@@ -41,7 +41,7 @@ const TakeCare = () => {
                     <h1 className='text-zinc-400'>04</h1>
                 </div>
                 <div className='p-4'>
-                    <h1 className='text-3xl text-cyan-300 font-extrabold'>Support Peers</h1>
+                    <h1 className='text-3xl text-red-600 font-extrabold'>Support Peers</h1>
                     <p className='pt-4 text-xl font-extralight'>Through Thick & Thin</p>
                 </div>
             </div>

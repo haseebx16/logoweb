@@ -8,7 +8,7 @@ const GooglePartner = () => {
                 <img src='/google-logo.png' className='h-80 w-auto'/>
             </div>
             <div>
-                <h1 className='font-extrabold text-5xl'>Google Premier Partnership</h1>
+                <h1 className='font-extrabold text-red-600 text-5xl'>Google Premier Partnership</h1>
                 <p className='max-w-2xl mt-4'>LogoWeB USA is a leading independent partner of Google. Strict quality control, innovation, data use, advanced methods, happy customer reviews, and clientele size are used to get remarkable recognition.</p>
                 <p className='max-w-2xl mt-4'>Interestingly, our collaboration with Google gives our customers exclusive access to data insights, help with digital campaigns, and other beneficial features.</p>
             </div>

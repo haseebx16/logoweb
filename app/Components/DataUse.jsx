@@ -8,7 +8,7 @@ const DataUse = () => {
             <img src='/usefulness-of-data.jpg' className='h-80 w-auto'/>
         </div>
         <div>
-            <h1 className='font-extrabold text-5xl'>Usefulness Of Data</h1>
+            <h1 className='font-extrabold text-red-600 text-5xl'>Usefulness Of Data</h1>
             <p className='max-w-2xl mt-4'>Our data analysts employ statistical summaries and microdata to improve the effectiveness of our digital services, such as SEO, Google Ad Words, site construction, digital advertising, and others. In addition, our data experts never stop studying Google’s algorithms. Finally, our digital performance team uses both structured and unstructured data to create business-smart e-marketing.</p>
         </div>
     </div>

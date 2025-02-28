@@ -29,7 +29,7 @@ const page = () => {
                 <div className="flex flex-col md:flex-row items-center justify-center">
                   <div className="text-white flex flex-col items-center justify-center text-center">
                     
-                    <h1 className="font-oswald text-3xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
+                    <h1 className="font-oswald text-red-600 text-3xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
                     Helping Ambitious Brands Punch Above Their Weight
                     </h1>
                     <p className='text-sm md:text-xl max-w-4xl'>Driven by curiosity. Based on a plan. We are a creative web design company that digitally connects your business strategy and vision. Our imagination assists in turning your dreams into practical concepts and inspiring success tales that shake up the digital economy.</p>
