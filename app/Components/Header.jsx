@@ -14,7 +14,6 @@ export default function Header() {
     'Ecommerce Solutions',
     'Logo Design',
     'Web Application Development',
-    'Mobile App Development',
     'Video Animations',
     'Branding',
   ];
