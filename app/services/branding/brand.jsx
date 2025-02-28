@@ -48,7 +48,7 @@ const services = [
 const Ecom = () => {
   return (
     <div className={`${font.className} bg-background text-white py-20 px-6 md:px-20`}>
-      <h1 className='text-2xl md:text-4xl text-center font-extrabold mb-10'>
+      <h1 className='text-2xl text-red-600 md:text-4xl text-center font-extrabold mb-10'>
       Popular Professional Video Production Services
       </h1>
 
@@ -60,7 +60,7 @@ const Ecom = () => {
             <div key={index} className="flex space-x-4 items-start">
               <div className="p-3 bg-gray-800 rounded-lg">{service.icon}</div>
               <div>
-                <h2 className="text-xl font-bold">{service.title}</h2>
+                <h2 className="text-xl text-red-600 font-bold">{service.title}</h2>
                 <p className="text-gray-300">{service.description}</p>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Ecom = () => {
             <div key={index} className="flex space-x-4 items-start">
               <div className="p-3 bg-gray-800 rounded-lg">{service.icon}</div>
               <div>
-                <h2 className="text-xl font-bold">{service.title}</h2>
+                <h2 className="text-xl text-red-600 font-bold">{service.title}</h2>
                 <p className="text-gray-300">{service.description}</p>
               </div>
             </div>

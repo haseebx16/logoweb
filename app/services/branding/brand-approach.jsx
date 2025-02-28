@@ -8,7 +8,7 @@ const EApproach = () => {
                 <img src='/approachlogo.png' className='h-auto w-full'/>
             </div>
             <div>
-                <h1 className='font-extrabold text-4xl'>
+                <h1 className='font-extrabold text-red-600 text-4xl'>
                 Brand Identity Development Agency</h1>
                 <p className='max-w-xl mt-4'>LogoWeb USA is a leading brand identity development agency dedicated to helping businesses establish a strong and consistent brand image. From logo design to color palettes and typography, we work closely with our clients to comprehend their unique values and goals and develop a brand identity that perfectly captures their essence. Our experienced designers and branding experts are equipped with the knowledge and tools to create a cohesive and impactful brand identity that will set you apart in your industry. Trust us to help you define and communicate your brand to the world.</p>
             </div>

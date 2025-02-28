@@ -23,12 +23,12 @@ const page = () => {
               <div className="flex flex-col md:flex-row items-center justify-between gap-12">
                 <div className="text-white max-w-4xl">
                   
-                  <h1 className="font-oswald text-4xl max-w-xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
+                  <h1 className="font-oswald text-red-600 text-4xl max-w-xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
                   Brand Design Prototype
                   </h1>
                   <p className='md:text-xl text-sm py-4 text-white'>The design of your company's brand identity helps customers distinguish your business. We can assist companies located all around the globe with the creation of their corporate identities.</p>
                   
-                  <button className="btn-primary text-white bg-cyan-400 px-8 rounded-md py-4 text-lg uppercase tracking-wider">
+                  <button className="btn-primary text-white bg-red-600 px-8 rounded-md py-4 text-lg uppercase tracking-wider">
                     Let's Talk
                   </button>
                 </div>
