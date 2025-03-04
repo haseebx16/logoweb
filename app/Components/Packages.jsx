@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { font } from "./font/font";
+import Link from "next/link";
 
 const Packages = () => {
   const [tab, setTab] = useState("Logo Design");
@@ -241,7 +242,7 @@ const Packages = () => {
               <p className="font-bold mt-5 text-xs">Starting from</p>
               <p className="text-3xl text-center  text-red-600 font-extrabold">{pkg.price}</p>
               <p className="text-xs text-center mt-4 text-black">Suitable for potential super-startups and brand revamps for companies.</p>
-              <button className="text-white mt-6 text-center bg-red-600 px-6 py-4 rounded-md">Let's Start</button>
+              <Link href="/order"><button className="text-white mt-6 text-center bg-red-600 px-6 py-4 rounded-md">Let's Start</button></Link>
               <p className="text-sm pt-5 text-black">{pkg.description}</p>
               <div className="mt-4 max-h-40 overflow-y-auto text-sm space-y-3 text-left text-black list-disc ">
                 {pkg.features.map((feature, i) => (
