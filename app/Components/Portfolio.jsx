@@ -5,7 +5,7 @@ import Image from "next/image";
 import { font } from "./font/font";
 
 const Portfolio = () => {
-  const [tab, setTab] = useState("Website Development");
+  const [tab, setTab] = useState("Animations");
 
   const tabImages = {
     "Website Development": [
