@@ -7,13 +7,13 @@ export default function Hero() {
     <section className={` ${font.className} relative h-screen md:h-[44rem] px-20  bg-background`}>
 
       {/* Content */}
-      <div className="container mx-auto px-4 py-20 relative z-20 mt-9">
+      <div className="container mx-auto px-4 py-20 relative z-20">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           {/* Text Content */}
           <div className="text-white max-w-xl">
             
             <h1 className="font-oswald text-4xl max-w-xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
-              BRAND.DESIGN <br/>PRODUCT. IN-HOUSE
+              BRAND.DESIGN.<br/>PRODUCT. IN-HOUSE
                 <span  className='text-red-600'>&nbsp; DEVELOPMENT</span>
                 & MORE
             </h1>
