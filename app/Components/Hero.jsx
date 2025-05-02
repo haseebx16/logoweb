@@ -12,7 +12,7 @@ export default function Hero() {
           {/* Text Content */}
           <div className="text-white max-w-xl">
             
-            <h1 className="font-oswald text-4xl max-w-xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide mt-5">
+            <h1 className="font-oswald text-4xl max-w-xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide mt-6">
               BRAND.DESIGN.<br/>PRODUCT. IN-HOUSE
                 <span  className='text-red-600'>&nbsp; DEVELOPMENT</span>
                 & MORE
