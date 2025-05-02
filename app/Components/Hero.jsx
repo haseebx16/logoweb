@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="container mx-auto px-4 py-20 relative z-20">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           {/* Text Content */}
-          <div className="text-white max-w-xl">
+          <div className="text-white max-w-xl mt-20">
             
             <h1 className="font-oswald text-4xl max-w-xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-wide">
               BRAND.DESIGN.<br/>PRODUCT. IN-HOUSE
